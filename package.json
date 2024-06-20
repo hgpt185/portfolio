@@ -5,12 +5,11 @@
   "author": "Hemesh Gupta <chandrikadeb7@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chandrikadeb7/chandrikadeb7.github.io"
+    "url": "https://github.com/hgpt185/hgpt185.github.io"
   },
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "gatsby build",

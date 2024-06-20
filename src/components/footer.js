@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/bchiang7/v4')
+    fetch('https://api.github.com/repos/hgpt185/hgpt185.github.io')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,9 +105,9 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/bchiang7/v4">
-          <div>Designed &amp; Built by Brittany Chiang<br></br>
-          Revised by Hemesh Gupta
+        <a href="https://github.com/hgpt185/hgpt185.github.io">
+          <div>Made with 🤍 by Hemesh<br></br><br></br>
+          Star/Follow me on Github
           </div>
 
           {githubInfo.stars && githubInfo.forks && (

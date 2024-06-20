@@ -9,7 +9,7 @@ tech:
   - OpenCV
   - MobileNetV2
 company: 'Project'
-showInProjects: true
+showInProjects: false
 ---
 
 A prototype to detect the presence of face masks in static images as well as in real-time video streams which was an essential in Covid era

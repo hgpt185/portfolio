@@ -18,7 +18,8 @@ const StyledHeroSection = styled.section`
   }
 
   h1 {
-    margin: 0 0 30px 4px;
+    
+    margin: 70px 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
@@ -33,6 +34,11 @@ const StyledHeroSection = styled.section`
     margin-top: 5px;
     color: var(--slate);
     line-height: 0.9;
+  }
+
+  .small-medium-heading {
+    font-size: 4.5rem; /* Adjust the size as needed between small and medium */
+    font-weight: 500; /* Adjust the weight as needed */
   }
 
   p {
@@ -61,21 +67,19 @@ const Hero = () => {
 
   const one = <h1>Hello World! My name is</h1>;
   const two = <h2 className="big-heading">Hemesh Gupta</h2>;
-  const three = <h3 className="medium-heading">Software Engineer</h3>;
+  const three = <h3 className="small-medium-heading">I love to explore & code!</h3>;
   const four = (
     <>
       <p>
-        <b>Glad to e-meet you!</b>
+        <b>Nice to meet you!</b>
       </p>
 
       <p>
-        I am Hemesh Gupta, an alumnus of {' '} <a href="https://www.bits-pilani.ac.in"> BITS Pilani</a> {' '} currently working as a Software Engineer at {' '}
-        <a href="https://www.salesforce.com">Salesforce</a>.
+      An aspiring software engineer with the ability to grow as an individual and learn in the surrounding of talented people.
       </p>
 
-
       <p>
-        When not in front of a screen, you can find me on field playing football or table tennis.
+      I am always open for discussions {' '} <a href="https://www.linkedin.com/in/hgpt185"> @Linkedin</a> {' '}.
       </p>
     </>
   );

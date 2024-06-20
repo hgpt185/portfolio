@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 800px; /* Increased from 700px */
 
   .inner {
     display: flex;
@@ -19,7 +19,7 @@ const StyledJobsSection = styled.section`
 
     // Prevent container from jumping
     @media (min-width: 700px) {
-      min-height: 340px;
+      min-height: 400px; /* Increased from 340px */
     }
   }
 `;
@@ -72,22 +72,22 @@ const StyledTabButton = styled.button`
   align-items: center;
   width: 100%;
   height: var(--tab-height);
-  padding: 0 20px 2px;
+  padding: 0 25px 2px; /* Increased padding */
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
   color: ${({ isActive }) => (isActive ? 'var(--green)' : 'var(--slate)')};
   font-family: var(--font-mono);
-  font-size: var(--fz-xs);
+  font-size: var(--fz-sm); /* Increased from var(--fz-xs) */
   text-align: left;
   white-space: nowrap;
 
   @media (max-width: 768px) {
-    padding: 0 15px 2px;
+    padding: 0 20px 2px; /* Increased padding */
   }
   @media (max-width: 600px) {
     ${({ theme }) => theme.mixins.flexCenter};
-    min-width: 120px;
-    padding: 0 15px;
+    min-width: 150px; /* Increased min-width */
+    padding: 0 20px; /* Increased padding */
     border-left: 0;
     border-bottom: 2px solid var(--lightest-navy);
     text-align: center;
@@ -129,7 +129,7 @@ const StyledHighlight = styled.div`
 const StyledTabPanels = styled.div`
   position: relative;
   width: 100%;
-  margin-left: 20px;
+  margin-left: 30px; /* Increased from 20px */
 
   @media (max-width: 600px) {
     margin-left: 0;
@@ -139,15 +139,15 @@ const StyledTabPanels = styled.div`
 const StyledTabPanel = styled.div`
   width: 100%;
   height: auto;
-  padding: 10px 5px;
+  padding: 20px 10px; /* Increased padding */
 
   ul {
     ${({ theme }) => theme.mixins.fancyList};
   }
 
   h3 {
-    margin-bottom: 2px;
-    font-size: var(--fz-xxl);
+    margin-bottom: 5px; /* Increased from 2px */
+    font-size: var(--fz-xxxl); /* Increased from var(--fz-xxl) */
     font-weight: 500;
     line-height: 1.3;
 
@@ -157,10 +157,10 @@ const StyledTabPanel = styled.div`
   }
 
   .range {
-    margin-bottom: 25px;
+    margin-bottom: 30px; /* Increased from 25px */
     color: var(--light-slate);
     font-family: var(--font-mono);
-    font-size: var(--fz-xs);
+    font-size: var(--fz-sm); /* Increased from var(--fz-xs) */
   }
 `;
 
