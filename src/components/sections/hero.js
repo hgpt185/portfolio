@@ -59,9 +59,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Namaste! My name is</h1>;
-  const two = <h2 className="big-heading">Chandrika Deb</h2>;
-  const three = <h3 className="medium-heading">MBA | Marketing Enthusiast | Freelance Blogger</h3>;
+  const one = <h1>Hello World! My name is</h1>;
+  const two = <h2 className="big-heading">Hemesh Gupta</h2>;
+  const three = <h3 className="medium-heading">Software Engineer</h3>;
   const four = (
     <>
       <p>
@@ -69,26 +69,23 @@ const Hero = () => {
       </p>
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
+        I am Hemesh Gupta, an alumnus of {' '} <a href="https://www.bits-pilani.ac.in"> BITS Pilani</a> {' '} currently working as a Software Engineer at {' '}
+        <a href="https://www.salesforce.com">Salesforce</a>.
       </p>
 
 
       <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
+        When not in front of a screen, you can find me on field playing football or table tennis.
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://chandrikadeb7.gumroad.com"
+      href="mailto:hgpt185@gmail.com"
       target="_blank"
-      rel="noreferrer">
-      Check out my products!
+      rel="noopener noreferrer">
+      Hire Me!
     </a>
   );
 
